@@ -2,15 +2,22 @@ header{
     width:100%;
     background-color: var(--PrimaryColor);
     height:200px;
+    padding:0;
+    margin:0;
+}
+
+header div{
+    float:left;
 }
 
 .logo_container{
     width: 200px;
-}
-
-.logo{
-    width: 200px;
     height: 200px;
+    padding: 0;
+    background-image:url("../images/logo_transparant_1080x1080.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
 }
 
 .clearfix::after {
