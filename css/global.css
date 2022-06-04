@@ -1,3 +1,12 @@
+:root{
+    --PrimaryColor: #004466;
+    --LightShade: #DADDE6;
+    --BorderShade: #8694B3;
+    --Grey: #797B80;
+    --Background: #FFFFFF;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: var(--Background);
 }
