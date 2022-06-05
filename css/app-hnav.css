@@ -37,7 +37,7 @@ nav ul li a, nav ul li ul li a{
 }
 
 nav li:hover, nav li:focus-within{
-    background-color:var(--PrimaryColor);
+    background-color:var(--LightGrey);
     color: #fff;
     cursor: pointer;
 }
