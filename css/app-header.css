@@ -1,6 +1,9 @@
 header{
     width:100%;
     background-color: var(--PrimaryColor);
+    background-image: url("../images/banner_bg.png");
+    background-position: center;
+    background-size: cover;
     min-height:200px;
     padding:0;
     margin:0;
