@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>The Steady Pen</title>
+    <title>The Steady Pen</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app-header.css">
+    <link rel="stylesheet" href="css/app-hnav.css">
+    <link rel="stylesheet" href="css/app-footer.css">
+    <script src="https://kit.fontawesome.com/ff67030ea8.js" crossorigin="anonymous"></script>
+
+    <!-- Include Google Roboto Fonts for defaults-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- #### header Code #### -->
+    <header id="header" class="clearfix">
+        <div class="logo_container">&nbsp;<!--<img class="logo" src="images/logo_transparant_1080x1080.png">--></div>
+        <div class="slogan">Explore Your Imagination with Prose</div>
+        <div class="search_container">
+            <input type="text" class="input-search-field" name="search_value" value="Search Site ...">
+            <button type="submit" class="button-search-field" form="form-search-site" value="Submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </header>
+    <!-- #### End header Code #### -->
+    
+    <!-- #### h-nav Code #### -->
+    <nav id="h-nav" class="clearfix">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="category.html">Popular Categories</a><div class="dropdown-arrow"></div>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Inventory</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- #### End h-nav Code #### -->
+    
+    <!-- #### main Code #### -->
+    <main id="main" class="clearfix">
+        <section class="content_container">
+            <div class="page-title">Welcome to the Steady Pen</div>
+            <div class="page-third">&nbsp;</div>
+            <div class="page-third">&nbsp;</div>
+            <div class="page-third">&nbsp;</div>
+        </section>
+    </main>
+    <!-- #### End main Code #### -->
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+    <!-- #### Footer Code #### -->
+    <footer id="footer" class="clearfix">
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Find Us</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <span class="social-title">Social:</span><br />
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a> |
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a> |
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+        <div class="copyright">Copyright &copy; 2022, The Steady Pen</div>
+    </footer>
+    <!-- #### End Footer Code #### -->
 </body>
 </html>
