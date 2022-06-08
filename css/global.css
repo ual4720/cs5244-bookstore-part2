@@ -12,3 +12,9 @@ body{
     background-color: var(--Background);
     margin: 0;
 }
+
+.main-container{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
