@@ -69,3 +69,21 @@ nav ul li ul li {
     clear: both;
     width: 100%;
 }
+
+nav .h-nav-right{
+    padding-top:7px;
+    padding-right: 18px;
+    text-align: right;
+    width: fit-content;
+    float:right;
+}
+
+nav .h-nav-right a{
+    color: black;
+    text-decoration: none;
+}
+
+nav .h-nav-right a:hover{
+    color: var(--Grey);
+    text-decoration: underline;
+}
